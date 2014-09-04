@@ -94,7 +94,7 @@ import java.io.*;
 		public static void main(String[] args) throws IOException {
 			BufferedReader in;
 			StringComp comp = new StringComp();
-			String filePath1 = "/home/admin1/Desktop/ML_project/Machine_Learning_Project/data_test.txt";
+			String filePath1 = "/home/admin1/Desktop/ML_project/Machine_Learning_Project/data_train.txt";
 			String filepath2 = "/home/admin1/Desktop/ML_project/Machine_Learning_Project/test_data.txt";
 			FileWriter fw = new FileWriter("/home/admin1/Desktop/ML_project/Machine_Learning_Project/test_data.txt");
 			BufferedWriter bw = new BufferedWriter(fw);
